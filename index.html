@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Столовая по-модному · обеды и ужины для групп в Апатитах</title>
+<meta name="description" content="Столовая «по-модному» в Апатитах: домашние обеды и ужины, доставка группам, самовывоз. Улица Дзержинского, 48/1.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Столовая по-модному · обеды и ужины для групп в Апатитах">
+<meta property="og:image" content="assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%2315171b%27/%3E%3Crect x=%277%27 y=%277%27 width=%2718%27 height=%2718%27 fill=%27none%27 stroke=%27%23c8f04a%27 stroke-width=%273%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<style>
+  .v-page {
+    --v-canvas: #15171b; --v-surface: #1d2025;
+    --v-ink: #f1efe9; --v-ink-soft: #aeb2b8;
+    --v-accent: #c8f04a; --v-accent-ink: #11160a;
+    --v-font-display: "Manrope", "Arial", system-ui, sans-serif;
+    --v-font-text: "Manrope", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+    --line: rgb(241 239 233 / .22); --line-strong: rgb(241 239 233 / .55);
+    --v-radius: 2px; --v-measure: 56ch;
+    background: var(--v-canvas); color: var(--v-ink);
+    font-family: var(--v-font-text);
+  }
+  html, body { background: #15171b; }
+  .v-page .d { font-family: var(--v-font-display); font-weight: 800; letter-spacing: -0.03em; line-height: 1.02; text-wrap: balance; margin: 0; }
+  .v-page p { text-wrap: pretty; }
+  .mono { font-family: var(--mono); font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; color: var(--v-ink-soft); font-weight: 500; }
+  .mono b { color: var(--v-accent); font-weight: 500; }
+  .wrap { width: min(1180px, 100% - 2.4rem); margin-inline: auto; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; min-height: 3.1rem; padding: .8rem 1.5rem; border: 1px solid var(--v-accent); border-radius: 2px;
+    background: var(--v-accent); color: var(--v-accent-ink); font: 800 1rem var(--v-font-display); letter-spacing: -.005em; text-decoration: none; cursor: pointer; transition: transform .2s ease, background-color .2s ease, color .2s ease; }
+  .btn:hover { background: transparent; color: var(--v-accent); }
+  .btn--ghost { background: transparent; color: var(--v-ink); border-color: var(--line-strong); }
+  .btn--ghost:hover { border-color: var(--v-accent); color: var(--v-accent); }
+  .v-page a.btn { color: var(--v-accent-ink); }
+  .v-page a.btn--ghost { color: var(--v-ink); }
+  .v-page a.btn:hover { color: var(--v-accent); }
+  .v-page a.btn--ghost:hover { color: var(--v-accent); }
+  .btn:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--v-accent); outline-offset: 3px; }
+
+  /* ---- верхняя полоса ---- */
+  .bar { position: fixed; z-index: 40; inset: 0 0 auto 0; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: .7rem clamp(1rem, 3vw, 2.2rem); background: linear-gradient(#15171bf2, #15171b00); pointer-events: none; }
+  .bar > * { pointer-events: auto; }
+  .bar__brand { display: inline-flex; align-items: center; gap: .6rem; color: var(--v-ink); text-decoration: none; font: 800 1.05rem var(--v-font-display); letter-spacing: -.02em; }
+  .bar__brand i { width: 14px; height: 14px; border: 2px solid var(--v-accent); display: inline-block; }
+  .bar__right { display: flex; align-items: center; gap: 1.2rem; }
+  .bar__tel { color: var(--v-ink); text-decoration: none; font-family: var(--mono); font-size: .84rem; letter-spacing: .04em; }
+  .bar .btn { min-height: 2.5rem; padding: .5rem 1.1rem; font-size: .9rem; }
+
+  /* ---- титул: закреплённая сцена ---- */
+  .hero { position: relative; }
+  .hero [data-v-stage] { display: grid; grid-template-columns: minmax(0, 38fr) minmax(0, 62fr); align-items: center; gap: clamp(1rem, 3vw, 3rem);
+    padding: clamp(4.5rem, 9vh, 6rem) clamp(1.2rem, 3.4vw, 3rem) clamp(2rem, 5vh, 3rem); overflow: hidden; }
+  .hero__text { display: grid; gap: 1.1rem; align-content: center; position: relative; z-index: 3; }
+  .hero__text h1 { font-size: clamp(2.1rem, 3.9vw, 3.9rem); }
+  .hero__text p { margin: 0; color: var(--v-ink-soft); font-size: clamp(1rem, 1.25vw, 1.15rem); line-height: 1.6; max-width: 40ch; }
+  .hero__text p b { color: var(--v-ink); font-weight: 700; }
+  .hero__cta { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: .4rem; }
+  .media { position: relative; aspect-ratio: 16 / 9; width: 100%; background: #101215; border: 1px solid var(--line); }
+  .v-page .media__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; will-change: opacity; max-width: none; }
+  .media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #15171b00 55%, #15171b66); pointer-events: none; }
+  .gz { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 4; overflow: hidden; pointer-events: none; }
+  .gz g.st { opacity: 0; transition: opacity .35s ease; }
+  .gz g.st.is-on { opacity: 1; }
+  .gz .bx { fill: rgb(200 240 74 / .07); stroke: #fff; stroke-width: 2; vector-effect: non-scaling-stroke; stroke-dasharray: 1; stroke-dashoffset: 1; }
+  .gz .bx.acc { stroke: #c8f04a; fill: rgb(200 240 74 / .12); }
+  .gz g.st.is-on .bx { animation: draw .9s cubic-bezier(.22, .8, .24, 1) forwards; }
+  .gz g.st.is-on .bx:nth-of-type(2) { animation-delay: .12s; }
+  .gz g.st.is-on .bx:nth-of-type(3) { animation-delay: .24s; }
+  .gz g.st.is-on .bx:nth-of-type(4) { animation-delay: .36s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .gz .hd { fill: #15171b; stroke: #fff; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+  .gz .tag { fill: #15171b; stroke: #c8f04a; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+  .gz text { font-family: var(--mono); font-size: 26px; fill: #f1efe9; letter-spacing: .06em; text-transform: uppercase; }
+  .gz text.n { fill: #c8f04a; }
+  .gz .ax { stroke-width: 3; vector-effect: non-scaling-stroke; }
+  .gz .guide { stroke: rgb(255 255 255 / .35); stroke-width: 1; stroke-dasharray: 6 8; vector-effect: non-scaling-stroke; }
+  .hud { position: absolute; z-index: 5; left: 0; right: 0; bottom: -2.2rem; display: flex; justify-content: space-between; gap: 1rem; }
+  .hud__state { display: grid; }
+  .hud__state span { grid-area: 1 / 1; opacity: 0; transform: translateY(5px); transition: opacity .3s ease, transform .3s ease; }
+  .hud__state span.is-on { opacity: 1; transform: none; }
+  .hud__dots { display: flex; gap: .55rem; align-items: center; }
+  .hud__dots i { width: 28px; height: 3px; background: var(--line); transition: background-color .3s; }
+  .hud__dots i.is-on { background: var(--v-accent); }
+
+  /* ---- обычные секции ---- */
+  .sec { padding: clamp(4.5rem, 10vw, 8.5rem) 0 clamp(2rem, 4vw, 3rem); position: relative; }
+  .sec h2 { font-size: clamp(1.9rem, 3.8vw, 3.4rem); max-width: 18ch; }
+  .sec__lead { color: var(--v-ink-soft); max-width: 52ch; margin: 1.1rem 0 0; line-height: 1.65; font-size: 1.06rem; }
+  .split { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: start; }
+  .facts { display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .facts li { list-style: none; display: grid; grid-template-columns: 3rem 1fr; gap: .4rem 1rem; padding: 1.15rem 0; border-bottom: 1px solid var(--line); }
+  .facts { margin: 0; padding: 0; }
+  .facts .mono b { font-size: .86rem; }
+  .facts strong { font-weight: 700; font-size: 1.12rem; letter-spacing: -.01em; }
+  .facts p { margin: .25rem 0 0; color: var(--v-ink-soft); line-height: 1.55; font-size: .98rem; }
+
+  .rows { margin-top: 2.2rem; border-top: 1px solid var(--line-strong); }
+  .row { display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) auto; gap: 1rem 1.6rem; align-items: baseline; padding: 1.35rem 0; border-bottom: 1px solid var(--line); transition: background-color .25s ease, padding .25s ease; }
+  .row:hover { background: rgb(200 240 74 / .06); padding-inline: .8rem; }
+  .row h3 { margin: 0; font: 800 clamp(1.15rem, 2vw, 1.55rem) var(--v-font-display); letter-spacing: -.02em; }
+  .row p { margin: .3rem 0 0; color: var(--v-ink-soft); font-size: .98rem; }
+  .row .pr { font-family: var(--mono); color: var(--v-accent); font-size: .9rem; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .sec__note { margin: 1.1rem 0 0; color: var(--v-ink-soft); font-size: .95rem; }
+
+  .shots { display: grid; grid-template-columns: 7fr 5fr; grid-template-rows: auto auto; gap: clamp(.8rem, 2vw, 1.6rem); margin-top: 2.4rem; }
+  .shot { position: relative; margin: 0; }
+  .shot img { display: block; width: 100%; height: 100%; max-width: none; object-fit: cover; background: #101215; border: 1px solid var(--line); aspect-ratio: 3 / 2; }
+  .shot--a { grid-row: span 2; }
+  .shot--a img { aspect-ratio: auto; min-height: 100%; }
+  .shot::before, .shot::after { content: ""; position: absolute; width: 22px; height: 22px; border: 2px solid var(--v-accent); pointer-events: none; z-index: 2; }
+  .shot::before { left: -6px; top: -6px; border-right: 0; border-bottom: 0; }
+  .shot::after { right: -6px; bottom: -6px; border-left: 0; border-top: 0; }
+  .shot figcaption { position: absolute; left: .8rem; bottom: .8rem; padding: .35rem .6rem; background: #15171bdd; border: 1px solid var(--v-accent); }
+
+  .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(.8rem, 2vw, 1.6rem); margin: 2.6rem 0 0; padding: 0; list-style: none; position: relative; counter-reset: s; }
+  .steps::before { content: ""; position: absolute; left: 0; right: 0; top: 11px; height: 1px; background: var(--line); }
+  .steps::after { content: ""; position: absolute; left: 0; top: 11px; height: 2px; width: calc(clamp(0, (var(--v-p, 0) - .12) / .5, 1) * 100%); background: var(--v-accent); }
+  .steps li { position: relative; padding-top: 2.4rem; }
+  .steps li::before { content: ""; position: absolute; left: 0; top: 4px; width: 14px; height: 14px; background: var(--v-canvas); border: 2px solid var(--v-accent); }
+  .steps h3 { margin: .5rem 0 .4rem; font: 800 1.2rem var(--v-font-display); letter-spacing: -.02em; }
+  .steps p { margin: 0; color: var(--v-ink-soft); line-height: 1.55; font-size: .98rem; }
+
+  .rev { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(.8rem, 2vw, 1.6rem); margin-top: 2.4rem; }
+  .rev blockquote { margin: 0; padding: 1.4rem; border: 1px solid var(--line); background: var(--v-surface); display: grid; gap: 1rem; align-content: space-between; }
+  .rev blockquote:nth-child(2) { transform: translateY(1.4rem); }
+  .rev p { margin: 0; line-height: 1.6; font-size: 1.02rem; }
+  .rev cite { font-style: normal; }
+  .score { display: flex; align-items: baseline; gap: .9rem; margin-top: 1.1rem; flex-wrap: wrap; }
+  .score b { font: 800 2.6rem var(--v-font-display); letter-spacing: -.04em; color: var(--v-accent); }
+  .src { margin-top: 4rem; }
+  .src a { color: var(--v-ink-soft); }
+
+  .faq { margin-top: 2rem; border-top: 1px solid var(--line-strong); }
+  .faq details { border-bottom: 1px solid var(--line); }
+  .faq summary { cursor: pointer; list-style: none; padding: 1.2rem 0; font: 700 1.1rem var(--v-font-display); letter-spacing: -.01em; display: flex; justify-content: space-between; gap: 1rem; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; font-family: var(--mono); color: var(--v-accent); }
+  .faq details[open] summary::after { content: "–"; }
+  .faq p { margin: 0 0 1.2rem; color: var(--v-ink-soft); max-width: 60ch; line-height: 1.6; }
+
+  /* ---- заявка ---- */
+  .order { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: start; }
+  .form { padding: clamp(1.2rem, 2.4vw, 2rem); border: 1px solid var(--line-strong); background: var(--v-surface); display: grid; gap: 1.1rem; position: relative; }
+  .form::before { content: ""; position: absolute; left: -6px; top: -6px; width: 22px; height: 22px; border: 2px solid var(--v-accent); border-right: 0; border-bottom: 0; }
+  .field { display: grid; gap: .45rem; }
+  .field label { font-family: var(--mono); font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; color: var(--v-ink-soft); }
+  .field select, .field input { min-height: 3rem; padding: .6rem .8rem; background: #15171b; color: var(--v-ink); border: 1px solid var(--line-strong); border-radius: 2px; font: 600 1rem var(--v-font-text); width: 100%; color-scheme: dark; }
+  .bubble { padding: .9rem 1rem; border-left: 3px solid var(--v-accent); background: #15171b; color: var(--v-ink-soft); font-size: .95rem; line-height: 1.55; }
+  .send { display: flex; flex-wrap: wrap; gap: .7rem; }
+  .send .btn { flex: 1 1 12rem; }
+  .copied { font-size: .9rem; color: var(--v-accent); margin: 0; min-height: 1.2em; }
+  .contacts { margin: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .contacts div { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: .95rem 0; border-bottom: 1px solid var(--line); }
+  .contacts dt { font-family: var(--mono); font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; color: var(--v-ink-soft); padding-top: .15rem; }
+  .contacts dd { margin: 0; font-weight: 600; }
+  .contacts a { color: var(--v-ink); text-decoration-color: var(--v-accent); text-underline-offset: 4px; }
+  .foot { margin-top: clamp(3.5rem, 8vw, 6rem); padding: 1.6rem 0 clamp(5.5rem, 8vw, 3rem); border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 1.2rem 2rem; justify-content: space-between; align-items: center; color: var(--v-ink-soft); font-size: .92rem; }
+  .sign { display: inline-flex; align-items: center; gap: .8rem; color: var(--v-ink); font-size: 15px; }
+  .sign img { width: 44px; height: 44px; border-radius: 10px; display: block; object-fit: cover; }
+
+  .dock { display: none; }
+
+  /* ---- планшет и телефон ---- */
+  @media (max-width: 960px) {
+    .hero [data-v-stage] { grid-template-columns: 1fr; grid-template-rows: auto auto; align-content: start; gap: 2.8rem; padding-top: 4.2rem; }
+    .media { order: -1; aspect-ratio: 4 / 3; }
+    .media__img { object-position: 50% 50%; }
+    .gz text { font-size: 34px; }
+    .hero__text h1 { font-size: clamp(1.9rem, 7.2vw, 2.6rem); }
+    .hero__text p { max-width: none; font-size: 1rem; }
+    .hero__cta .btn--ghost { display: none; }
+    .hud { bottom: -1.7rem; }
+    .split, .order { grid-template-columns: 1fr; }
+    .shots { grid-template-columns: 1fr 1fr; }
+    .shot--a { grid-column: 1 / -1; grid-row: auto; }
+    .shot--a img { aspect-ratio: 3 / 2; min-height: 0; }
+    .steps { grid-template-columns: 1fr; gap: 1.6rem; }
+    .steps::before, .steps::after { display: none; }
+    .steps li { padding: 0 0 0 2rem; }
+    .steps li::before { top: .2rem; }
+    .rev { grid-template-columns: 1fr; }
+    .rev blockquote:nth-child(2) { transform: none; }
+    .row { grid-template-columns: 2.4rem minmax(0, 1fr); }
+    .row .pr { grid-column: 2; }
+    .bar__tel { display: none; }
+    .bar .btn { display: none; }
+    .dock { display: flex; gap: .6rem; position: fixed; z-index: 45; inset: auto 0 0 0; padding: .7rem 1rem calc(.7rem + env(safe-area-inset-bottom)); background: #15171bf5; border-top: 1px solid var(--line); }
+    .dock .btn { flex: 1; min-height: 3rem; padding-inline: .6rem; white-space: nowrap; font-size: .95rem; }
+  }
+  @media (max-width: 520px) {
+    .shots { grid-template-columns: 1fr; }
+    .contacts div { grid-template-columns: 1fr; gap: .2rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .gz .bx { stroke-dashoffset: 0 !important; animation: none !important; } }
+</style>
+</head>
+<body>
+<div class="v-page">
+
+  <header class="bar">
+    <a class="bar__brand" href="#top"><i aria-hidden="true"></i>по-модному</a>
+    <div class="bar__right">
+      <a class="bar__tel" href="tel:+79210318888">+7 921 031-88-88</a>
+      <a class="btn" href="#zayavka">Заказать обеды</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ТИТУЛ: один зал, четыре кадра. Поверх каждого кадра рисуются рамки объектов, как в 3D-редакторе -->
+    <section class="hero" id="hero" data-v-act="pin" data-v-span="4" aria-label="Титул">
+      <div data-v-stage>
+        <div class="hero__text" data-v-cue="0 1 0 0">
+          <span class="mono"><b>[ 01 ]</b> Столовая · Апатиты</span>
+          <h1 class="d">Обеды и ужины для групп в Апатитах – вовремя, горячо, по-домашнему</h1>
+          <p>Соревнования, сборы, бригада или офис: комплексные обеды и ужины с доставкой или самовывозом. <b>Что заказать и как – до звонка</b>, заявка за минуту.</p>
+          <div class="hero__cta">
+            <a class="btn" href="#zayavka">Заказать обеды</a>
+            <a class="btn btn--ghost" href="tel:+79210318888">Позвонить</a>
+          </div>
+        </div>
+
+        <div class="media" id="media">
+          <img class="media__img" src="assets/s-event.webp" alt="Длинные столы со скатертями в спортзале, накрытые горячими обедами для группы" width="1920" height="1080" decoding="async">
+          <img class="media__img" src="assets/s-delivery.webp" alt="Ряды контейнеров с обедами и два термоса, готовые к доставке" width="1920" height="1080" decoding="async">
+          <img class="media__img" src="assets/s-food.webp" alt="Поднос с борщом, пюре с куриными тефтелями, салатом и компотом" width="1920" height="1080" decoding="async">
+          <img class="media__img" src="assets/s-cover.webp" alt="Светлый зал столовой с деревянными столами и раздачей горячих блюд" width="1920" height="1080" decoding="async" fetchpriority="high">
+
+          <svg class="gz" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g class="st is-on" data-st="0">
+              <rect class="bx acc" pathLength="1" x="288" y="576" width="1008" height="504"/>
+              <rect class="bx" pathLength="1" x="168" y="0" width="312" height="700"/>
+              <rect class="bx" pathLength="1" x="1344" y="672" width="576" height="408"/>
+              <rect class="tag" x="288" y="528" width="190" height="42"/><text x="302" y="558"><tspan class="n">01</tspan> Зал</text>
+              <rect class="tag" x="500" y="40" width="170" height="42"/><text x="514" y="70"><tspan class="n">02</tspan> Окно</text>
+              <rect class="tag" x="1344" y="624" width="250" height="42"/><text x="1358" y="654"><tspan class="n">03</tspan> Раздача</text>
+              <line class="guide" x1="0" y1="1030" x2="288" y2="1030"/>
+            </g>
+            <g class="st" data-st="1">
+              <rect class="bx acc" pathLength="1" x="480" y="648" width="1080" height="360"/>
+              <rect class="bx" pathLength="1" x="516" y="672" width="372" height="216"/>
+              <rect class="bx" pathLength="1" x="924" y="720" width="372" height="180"/>
+              <rect class="bx" pathLength="1" x="1092" y="552" width="144" height="168"/>
+              <rect class="tag" x="516" y="624" width="190" height="42"/><text x="530" y="654"><tspan class="n">01</tspan> Борщ</text>
+              <rect class="tag" x="924" y="900" width="320" height="42"/><text x="938" y="930"><tspan class="n">02</tspan> Пюре, тефтели</text>
+              <rect class="tag" x="840" y="582" width="200" height="42"/><text x="854" y="612"><tspan class="n">03</tspan> Салат</text>
+              <rect class="tag" x="1240" y="504" width="200" height="42"/><text x="1254" y="534"><tspan class="n">04</tspan> Компот</text>
+            </g>
+            <g class="st" data-st="2">
+              <rect class="bx acc" pathLength="1" x="0" y="552" width="1488" height="360"/>
+              <rect class="bx" pathLength="1" x="1176" y="396" width="504" height="324"/>
+              <rect class="bx" pathLength="1" x="1680" y="648" width="168" height="144"/>
+              <rect class="tag" x="560" y="504" width="320" height="42"/><text x="574" y="534"><tspan class="n">01</tspan> Контейнеры</text>
+              <rect class="tag" x="1176" y="348" width="240" height="42"/><text x="1190" y="378"><tspan class="n">02</tspan> Термосы</text>
+              <rect class="tag" x="1500" y="800" width="230" height="42"/><text x="1514" y="830"><tspan class="n">03</tspan> Пакеты</text>
+            </g>
+            <g class="st" data-st="3">
+              <rect class="bx acc" pathLength="1" x="420" y="552" width="1500" height="480"/>
+              <rect class="bx" pathLength="1" x="744" y="144" width="888" height="600"/>
+              <rect class="bx" pathLength="1" x="768" y="0" width="1152" height="170"/>
+              <rect class="tag" x="420" y="504" width="250" height="42"/><text x="434" y="534"><tspan class="n">01</tspan> Столы</text>
+              <rect class="tag" x="744" y="96" width="250" height="42"/><text x="758" y="126"><tspan class="n">02</tspan> Зал</text>
+              <rect class="tag" x="1300" y="188" width="260" height="42"/><text x="1314" y="218"><tspan class="n">03</tspan> Окна</text>
+            </g>
+            <g transform="translate(70 1010)"><line class="ax" x1="0" y1="0" x2="70" y2="0" stroke="#c8f04a"/><line class="ax" x1="0" y1="0" x2="0" y2="-70" stroke="#8be0a8"/><line class="ax" x1="0" y1="0" x2="-34" y2="34" stroke="#7db8ff"/></g>
+          </svg>
+
+          <div class="hud" aria-live="polite">
+            <p class="mono hud__state" id="hudState" style="margin:0">
+              <span class="is-on"><b>01</b> · Зал</span>
+              <span><b>02</b> · Обед</span>
+              <span><b>03</b> · Доставка</span>
+              <span><b>04</b> · На месте</span>
+            </p>
+            <div class="hud__dots" id="hudDots" aria-hidden="true"><i class="is-on"></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ДО ЗВОНКА -->
+    <section class="sec" data-v-act="flow" aria-label="Что можно заказать">
+      <div class="wrap split" data-v-in>
+        <div>
+          <span class="mono"><b>[ 02 ]</b> До звонка</span>
+          <h2 class="d" style="margin-top:1rem">Что заказать и как – на одной странице</h2>
+          <p class="sec__lead">На карточке в 2ГИС есть часы и телефон, а про заказ обедов группам ни слова. Между тем гости пишут: «Доставка чётко по времени и по количеству». Здесь это видно сразу.</p>
+        </div>
+        <ul class="facts" data-v-in data-v-stagger="80">
+          <li><span class="mono"><b>01</b></span><div><strong>Комплексные обеды и ужины</strong><p>Домашняя еда: борщ, солянка, пюре, куриные тефтели, котлеты, салаты.</p></div></li>
+          <li><span class="mono"><b>02</b></span><div><strong>Доставка группам</strong><p>Для соревнований, сборов и бригад: привозим в назначенное время.</p></div></li>
+          <li><span class="mono"><b>03</b></span><div><strong>Самовывоз и зал</strong><p>Можно забрать заказ или пообедать у нас на Дзержинского, 48/1.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ФОРМАТЫ -->
+    <section class="sec" id="formaty" data-v-act="flow" aria-label="Форматы и цены">
+      <div class="wrap" data-v-in>
+        <span class="mono"><b>[ 03 ]</b> Форматы</span>
+        <h2 class="d" style="margin-top:1rem">Что у нас заказывают</h2>
+        <div class="rows" data-v-in data-v-stagger="60">
+          <article class="row"><span class="mono"><b>01</b></span><div><h3>Комплексные обеды для группы</h3><p>Первое, второе, салат и компот на нужное число человек.</p></div><span class="pr">цена: уточнить</span></article>
+          <article class="row"><span class="mono"><b>02</b></span><div><h3>Обеды и ужины на сборы и соревнования</h3><p>Питание на несколько дней: обед и ужин вовремя, горячее.</p></div><span class="pr">цена: уточнить</span></article>
+          <article class="row"><span class="mono"><b>03</b></span><div><h3>Обеды для офиса и бригады</h3><p>Регулярный заказ на неделю, учитываем пожелания.</p></div><span class="pr">цена: уточнить</span></article>
+          <article class="row"><span class="mono"><b>04</b></span><div><h3>Обед в зале и навынос</h3><p>Домашняя еда на месте или самовывоз в контейнерах.</p></div><span class="pr">цена: уточнить</span></article>
+        </div>
+        <p class="sec__note">Цену на человека называем после выбора меню, даты и числа человек.</p>
+      </div>
+    </section>
+
+    <!-- ФОТО -->
+    <section class="sec" data-v-act="flow" aria-label="Зал и еда">
+      <div class="wrap" data-v-in>
+        <span class="mono"><b>[ 04 ]</b> Как выглядит</span>
+        <h2 class="d" style="margin-top:1rem">Зал, обед и доставка</h2>
+        <div class="shots" data-v-in data-v-stagger="90">
+          <figure class="shot shot--a"><img src="assets/s-cover.webp" alt="Светлый зал столовой с деревянными столами" width="1920" height="1080" loading="lazy" decoding="async"><figcaption class="mono">Зал</figcaption></figure>
+          <figure class="shot"><img src="assets/s-food.webp" alt="Поднос с обедом" width="1920" height="1080" loading="lazy" decoding="async"><figcaption class="mono">Комплексный обед</figcaption></figure>
+          <figure class="shot"><img src="assets/s-delivery.webp" alt="Контейнеры с обедами для доставки" width="1920" height="1080" loading="lazy" decoding="async"><figcaption class="mono">Доставка группам</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- КАК ЗАКАЗАТЬ -->
+    <section class="sec" id="kak" data-v-act="flow" aria-label="Как заказать">
+      <div class="wrap">
+        <span class="mono"><b>[ 05 ]</b> Как заказать</span>
+        <h2 class="d" style="margin-top:1rem">Четыре шага до горячего обеда</h2>
+        <ol class="steps" data-v-in data-v-stagger="90">
+          <li><span class="mono"><b>01</b></span><h3>Заявка</h3><p>Дата, число человек, адрес и телефон – одна короткая форма.</p></li>
+          <li><span class="mono"><b>02</b></span><h3>Меню</h3><p>Менеджер звонит, называет меню и цену, учитывает пожелания.</p></li>
+          <li><span class="mono"><b>03</b></span><h3>Согласование</h3><p>Фиксируем время подачи и состав. Условия оплаты называем сразу.</p></li>
+          <li><span class="mono"><b>04</b></span><h3>Доставка</h3><p>Привозим по времени и по количеству или ждём на самовывоз.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="sec" id="otzyvy" data-v-act="flow" aria-label="Отзывы с 2ГИС">
+      <div class="wrap" data-v-in>
+        <span class="mono"><b>[ 06 ]</b> Отзывы</span>
+        <h2 class="d" style="margin-top:1rem">Что пишут гости</h2>
+        <div class="score"><b>4,7</b><span class="mono">на 2ГИС · 30 отзывов</span></div>
+        <div class="rev" data-v-in data-v-stagger="90">
+          <blockquote><p>«Обеды и ужины по-домашнему вкусные, меню разнообразно, возможна доставка по запросу.»</p><cite class="mono">Ирина Бондарь · 26 сентября 2024</cite></blockquote>
+          <blockquote><p>«Вкусно, сытно! Доставка чётко по времени и по количеству! При составлении заказа учтены все пожелания!»</p><cite class="mono">Марина · 23 декабря 2024</cite></blockquote>
+          <blockquote><p>«Качество супер, заказываю регулярно комплексные обеды и ужины»</p><cite class="mono">Анна Браду · 18 октября 2024</cite></blockquote>
+        </div>
+        <p class="mono src">Отзывы дословно с карточки 2ГИС, без правок. <a href="https://2gis.ru/apatity/firm/70000001040500263/tab/reviews" target="_blank" rel="noopener">Читать все отзывы</a></p>
+      </div>
+    </section>
+
+    <!-- ВОПРОСЫ -->
+    <section class="sec" data-v-act="flow" aria-label="Частые вопросы">
+      <div class="wrap" data-v-in>
+        <span class="mono"><b>[ 07 ]</b> Вопросы</span>
+        <h2 class="d" style="margin-top:1rem">Коротко о главном</h2>
+        <div class="faq">
+          <details><summary>Куда вы доставляете?</summary><p>Зона доставки: {{зона доставки}}. Гости пишут, что обеды привозили в посёлок Титан.</p></details>
+          <details><summary>За сколько дней заказывать?</summary><p>Заказ за {{заказ за сколько дней}} до даты. Лучше заранее, чтобы согласовать меню.</p></details>
+          <details><summary>Сколько человек можно накормить?</summary><p>Минимальный и максимальный заказ: {{минимальный заказ}}.</p></details>
+          <details><summary>Как оплатить?</summary><p>Условия оплаты: {{оплата}}.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ЗАЯВКА -->
+    <section class="sec" id="zayavka" data-v-act="flow" aria-label="Заявка">
+      <div class="wrap order" data-v-in>
+        <div>
+          <span class="mono"><b>[ 08 ]</b> Заявка</span>
+          <h2 class="d" style="margin-top:1rem">Составим заказ под вашу группу</h2>
+          <dl class="contacts" style="margin-top:2rem">
+            <div><dt>Адрес</dt><dd>Апатиты, улица Дзержинского, 48/1</dd></div>
+            <div><dt>Телефон</dt><dd><a href="tel:+79210318888">+7 921 031-88-88</a></dd></div>
+            <div><dt>ВКонтакте</dt><dd><a href="https://vk.com/stolovayapo" target="_blank" rel="noopener">vk.com/stolovayapo</a></dd></div>
+            <div><dt>Часы</dt><dd>Ежедневно с 10:00 до 19:00</dd></div>
+          </dl>
+        </div>
+        <form class="form" id="form" onsubmit="return false">
+          <div class="field"><label for="f-kind">Что заказываем</label>
+            <select id="f-kind"><option>Обеды для группы</option><option>Обеды и ужины на сборы</option><option>Обеды для офиса или бригады</option><option>Обед навынос</option></select></div>
+          <div class="field"><label for="f-date">Дата</label><input id="f-date" type="date"></div>
+          <div class="field"><label for="f-guests">Сколько человек</label><input id="f-guests" type="number" min="1" max="500" inputmode="numeric" placeholder="например, 30"></div>
+          <div class="bubble" aria-live="polite" id="bubble"></div>
+          <div class="send">
+            <a class="btn" id="b-call" href="tel:+79210318888">Позвонить и заказать</a>
+            <a class="btn btn--ghost" id="b-vk" href="https://vk.com/stolovayapo" target="_blank" rel="noopener">Написать ВКонтакте</a>
+          </div>
+          <p class="copied" id="copied" role="status"></p>
+        </form>
+      </div>
+      <div class="wrap">
+        <footer class="foot">
+          <span>Столовая по-модному – Апатиты, Дзержинского, 48/1</span>
+          <span class="sign"><img src="assets/brand-mark.webp" alt="" width="44" height="44">Автор сайта: Антонина Логутенкова</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="dock" aria-label="Быстрая связь"><a class="btn" href="#zayavka">Заказать обеды</a><a class="btn btn--ghost" href="tel:+79210318888">Позвонить</a></nav>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Титул: четыре кадра лежат стопкой (в DOM снизу вверх: «с собой», «банкет», «меню», «зал»).
+  // Верхние гаснут по очереди от --v-p акта, рамки поверх переключаются на середине кроссфейда.
+  (function () {
+    var act = document.getElementById('hero');
+    var imgs = act.querySelectorAll('.media__img');
+    var gs = act.querySelectorAll('.gz g.st');
+    var states = document.getElementById('hudState').children;
+    var dots = document.getElementById('hudDots').children;
+    var n = imgs.length, live = false, lastF = -1, lastK = -1;
+    function ss(t) { t = t < 0 ? 0 : t > 1 ? 1 : t; return t * t * (3 - 2 * t); }
+    function paint(f) {
+      for (var i = 1; i < n; i++) { var o = 1 - (f - (n - 1 - i)); imgs[i].style.opacity = (o < 0 ? 0 : o > 1 ? 1 : o).toFixed(3); }
+      var k = Math.round(f);
+      if (k !== lastK) {
+        lastK = k;
+        for (var j = 0; j < n; j++) {
+          states[j].classList.toggle('is-on', j === k);
+          dots[j].classList.toggle('is-on', j <= k);
+          gs[j].classList.toggle('is-on', j === k);
+        }
+      }
+    }
+    // f = 0 – зал (верхний кадр), n-1 – «с собой»: индекс состояния = j в порядке «зал, меню, банкет, с собой»
+    function tick() {
+      var p = parseFloat(getComputedStyle(act).getPropertyValue('--v-p')) || 0;
+      var x = p * n, f = 0;
+      for (var b = 1; b < n; b++) f += ss((x - (b - 0.175)) / 0.35);
+      if (f !== lastF) { lastF = f; paint(f); }
+      if (live) requestAnimationFrame(tick);
+    }
+    new IntersectionObserver(function (es) { live = es[0].isIntersecting; if (live) tick(); }).observe(act);
+    tick();
+  })();
+
+  // Заявка: текст собирается из полей; для ВКонтакте копируется в буфер, телефон набирается кнопкой.
+  (function () {
+    var kind = document.getElementById('f-kind'), date = document.getElementById('f-date'), guests = document.getElementById('f-guests');
+    var bubble = document.getElementById('bubble'), copied = document.getElementById('copied');
+    var d = new Date(); d.setDate(d.getDate() + 1);
+    date.min = new Date().toISOString().slice(0, 10);
+    function fmt(v) { if (!v) return 'дата пока не выбрана'; var p = v.split('-'); return 'дата ' + p[2] + '.' + p[1] + '.' + p[0]; }
+    function text() {
+      var g = parseInt(guests.value, 10);
+      return 'Здравствуйте! Хочу заказать: ' + kind.value.toLowerCase() + ', ' + fmt(date.value) + (g > 0 ? ', человек ' + g : '') + '. Подскажите меню, цену на человека и доставку.';
+    }
+    function upd() { bubble.textContent = text(); copied.textContent = ''; }
+    [kind, date, guests].forEach(function (e) { e.addEventListener('input', upd); });
+    upd();
+    document.getElementById('b-vk').addEventListener('click', function () {
+      var t = text();
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(function () { copied.textContent = 'Текст скопирован – вставьте его в чат ВКонтакте.'; }, function () {});
+    });
+  })();
+</script>
+</body>
+</html>
